@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import json
 import wave
@@ -549,4 +548,3 @@ if __name__ == "__main__":
     porta = int(os.environ.get("PORT", 8000))
     print(f"🚀 Servidor Kawahiva iniciado na porta {porta}")
     uvicorn.run(app, host="0.0.0.0", port=porta)
->>>>>>> 79c30e579f212599309cbfc8c9df2f170da1352d
