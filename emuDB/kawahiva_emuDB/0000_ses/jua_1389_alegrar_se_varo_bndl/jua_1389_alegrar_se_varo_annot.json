@@ -1,0 +1,119 @@
+{
+  "name": "jua_1389_alegrar_se_varo",
+  "annotates": "jua_1389_alegrar_se_varo.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 9439,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 9440,
+          "sampleDur": 2879,
+          "labels": [
+            {
+              "name": "words",
+              "value": "varõ"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 12320,
+          "sampleDur": 3871,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 9439,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 9440,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ʋ"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 9920,
+          "sampleDur": 1279,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 11200,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ɾ"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 11680,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "õ"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 12320,
+          "sampleDur": 3871,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

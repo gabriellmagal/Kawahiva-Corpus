@@ -1,0 +1,130 @@
+{
+  "name": "jua_1128_guardar_tabu_okwakum",
+  "annotates": "jua_1128_guardar_tabu_okwakum.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 2879,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 2880,
+          "sampleDur": 8319,
+          "labels": [
+            {
+              "name": "words",
+              "value": "okwakum"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 11200,
+          "sampleDur": 11280,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 2879,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 2880,
+          "sampleDur": 959,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "o"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 3840,
+          "sampleDur": 1119,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 4960,
+          "sampleDur": 1919,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 6880,
+          "sampleDur": 2079,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 8960,
+          "sampleDur": 2239,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 11200,
+          "sampleDur": 11280,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

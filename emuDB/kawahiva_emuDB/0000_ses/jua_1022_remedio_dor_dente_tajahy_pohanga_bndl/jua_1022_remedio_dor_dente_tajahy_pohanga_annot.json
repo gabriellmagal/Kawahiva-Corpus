@@ -1,0 +1,229 @@
+{
+  "name": "jua_1022_remedio_dor_dente_tajahy_pohanga",
+  "annotates": "jua_1022_remedio_dor_dente_tajahy_pohanga.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 6879,
+          "labels": [
+            {
+              "name": "words",
+              "value": "tajahya"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 6880,
+          "sampleDur": 3199,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 10080,
+          "sampleDur": 5759,
+          "labels": [
+            {
+              "name": "words",
+              "value": "pohanga"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "sampleStart": 15840,
+          "sampleDur": 9840,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 5,
+          "sampleStart": 0,
+          "sampleDur": 3679,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "t"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 3680,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 4160,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "dʒ"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 4640,
+          "sampleDur": 799,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 5440,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "x"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 5920,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ɯ"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 6400,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "sampleStart": 6880,
+          "sampleDur": 3199,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "sampleStart": 10080,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "p"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "sampleStart": 10720,
+          "sampleDur": 1439,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "o"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "sampleStart": 12160,
+          "sampleDur": 2239,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "x"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "sampleStart": 14400,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "sampleStart": 14880,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ᵑɡ"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "sampleStart": 15360,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "sampleStart": 15840,
+          "sampleDur": 9840,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

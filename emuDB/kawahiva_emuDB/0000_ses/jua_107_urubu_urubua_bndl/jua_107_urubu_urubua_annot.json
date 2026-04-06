@@ -1,0 +1,141 @@
+{
+  "name": "jua_107_urubu_urubua",
+  "annotates": "jua_107_urubu_urubua.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 1119,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 1120,
+          "sampleDur": 6079,
+          "labels": [
+            {
+              "name": "words",
+              "value": "uruvua"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 7200,
+          "sampleDur": 3756,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 1119,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 1120,
+          "sampleDur": 1279,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 2400,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ɾ"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 2880,
+          "sampleDur": 2879,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 5760,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ʋ"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 6240,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 6720,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 7200,
+          "sampleDur": 3756,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

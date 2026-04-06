@@ -1,0 +1,130 @@
+{
+  "name": "jua_1414_ser_mordido_por_cobra_oimondan",
+  "annotates": "jua_1414_ser_mordido_por_cobra_oimondan.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 10399,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 10400,
+          "sampleDur": 5759,
+          "labels": [
+            {
+              "name": "words",
+              "value": "oimõndan"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 16160,
+          "sampleDur": 7151,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 10399,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 10400,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "o"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 10880,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 11360,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "õ"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 11840,
+          "sampleDur": 2399,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ⁿd"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 14240,
+          "sampleDur": 1919,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 16160,
+          "sampleDur": 7151,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

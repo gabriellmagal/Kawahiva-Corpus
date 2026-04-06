@@ -1,0 +1,174 @@
+{
+  "name": "jua_1457_nascer_ilegitimamente_ojuhute_e",
+  "annotates": "jua_1457_nascer_ilegitimamente_ojuhute_e.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 6239,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 6240,
+          "sampleDur": 18239,
+          "labels": [
+            {
+              "name": "words",
+              "value": "ojuhute'e"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 24480,
+          "sampleDur": 784,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 6239,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 6240,
+          "sampleDur": 2559,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "o"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 8800,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "dʒ"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 9280,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 9920,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "x"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 10400,
+          "sampleDur": 2079,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 12480,
+          "sampleDur": 1599,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "t"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 14080,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "e"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "sampleStart": 14560,
+          "sampleDur": 1919,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ʔ"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "sampleStart": 16480,
+          "sampleDur": 7999,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "e"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "sampleStart": 24480,
+          "sampleDur": 784,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

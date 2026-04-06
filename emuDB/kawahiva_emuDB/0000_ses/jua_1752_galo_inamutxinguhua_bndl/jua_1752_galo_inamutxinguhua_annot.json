@@ -1,0 +1,185 @@
+{
+  "name": "jua_1752_galo_inamutxinguhua",
+  "annotates": "jua_1752_galo_inamutxinguhua.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 10079,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 10080,
+          "sampleDur": 8639,
+          "labels": [
+            {
+              "name": "words",
+              "value": "inãmutxinguhua"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 18720,
+          "sampleDur": 5775,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 10079,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 10080,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 10720,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ã"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 11200,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 11680,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "dʒ"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 12160,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 12640,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ᵑɡ"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 13120,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "sampleStart": 13600,
+          "sampleDur": 3999,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "x"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "sampleStart": 17600,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "sampleStart": 18080,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "sampleStart": 18720,
+          "sampleDur": 5775,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

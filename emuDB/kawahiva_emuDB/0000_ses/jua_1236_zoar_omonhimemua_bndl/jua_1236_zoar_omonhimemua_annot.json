@@ -1,0 +1,141 @@
+{
+  "name": "jua_1236_zoar_omonhimemua",
+  "annotates": "jua_1236_zoar_omonhimemua.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 10399,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 10400,
+          "sampleDur": 4479,
+          "labels": [
+            {
+              "name": "words",
+              "value": "omõnhimẽmũ"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 14880,
+          "sampleDur": 7983,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 10399,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 10400,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "o"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 10880,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "õ"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 11360,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "x"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 11840,
+          "sampleDur": 2079,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 13920,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ẽ"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 14400,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ũ"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 14880,
+          "sampleDur": 7983,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>EMU-webApp</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2c5f2e">
+    <meta name="msapplication-TileImage" content="assets/mstile-144x144.png">
+    <base href="/EMU-webApp/">
+
+    <style>
+        /* ── Corte de animações de slide de painéis ── */
+        *, *::before, *::after {
+            transition-duration: 0s !important;
+            animation-duration: 0s !important;
+        }
+        .ng-enter, .ng-leave, .ng-move,
+        .ng-enter-active, .ng-leave-active, .ng-move-active,
+        .ng-hide-add, .ng-hide-remove,
+        .ng-hide-add-active, .ng-hide-remove-active {
+            transition: none !important;
+            animation: none !important;
+        }
+        .ng-leave { display: none !important; }
+
+        /* ── Remover elementos desnecessários ── */
+
+        /* Hamburguer (abre menu lateral) */
+        #bundleListSideBarOpen { display: none !important; }
+
+        /* Menu lateral (Bundle Filter + File(s)) */
+        bundle-list-side-bar,
+        .emuwebapp-bundle-outer,
+        .emuwebapp-bundleListSideBar,
+        [class*="bundleListSideBar"] { display: none !important; }
+
+        /* Botões de salvar TextGrid e annotJSON */
+        button[ng-click*="downloadTextGrid"],
+        button[ng-click*="downloadAnnotation"],
+        .emuwebapp-mini-btn-save { display: none !important; }
+
+        /* Logo do EMU (pássaro no canto direito) */
+        .emuwebapp-logo,
+        [class*="emuwebapp-logo"],
+        img[src*="emu"],
+        img[src*="duck"],
+        img[src*="bird"] { display: none !important; }
+
+        /* Garante que a área principal ocupe o espaço do menu removido */
+        .emuwebapp-window {
+            margin-left: 0 !important;
+            width: 100% !important;
+        }
+    </style>
+</head>
+<body ng-app="emuwebApp">
+    <emuwebapp class="emuwebapp"></emuwebapp>
+
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://stats.clarin.eu/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '31']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+
+    <script src="dist/emuwebapp.bundle.js?v=3"></script>
+</body>
+</html>

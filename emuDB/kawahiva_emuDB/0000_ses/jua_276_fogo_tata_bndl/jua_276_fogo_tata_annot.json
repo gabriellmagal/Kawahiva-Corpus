@@ -1,0 +1,97 @@
+{
+  "name": "jua_276_fogo_tata",
+  "annotates": "jua_276_fogo_tata.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 5759,
+          "labels": [
+            {
+              "name": "words",
+              "value": "tata"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 5760,
+          "sampleDur": 4019,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 3,
+          "sampleStart": 0,
+          "sampleDur": 1439,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "t"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "sampleStart": 1440,
+          "sampleDur": 1279,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 2720,
+          "sampleDur": 2559,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "t"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 5280,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 5760,
+          "sampleDur": 4019,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

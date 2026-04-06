@@ -1,0 +1,174 @@
+{
+  "name": "jua_378_ter_fome_dor_de_estomago_ipyaverai_je",
+  "annotates": "jua_378_ter_fome_dor_de_estomago_ipyaverai_je.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 480,
+          "sampleDur": 12639,
+          "labels": [
+            {
+              "name": "words",
+              "value": "ipyaverai"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 13120,
+          "sampleDur": 6465,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 480,
+          "sampleDur": 1279,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 1760,
+          "sampleDur": 2239,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "p"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 4000,
+          "sampleDur": 799,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ɯ"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 4800,
+          "sampleDur": 2239,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 7040,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ʋ"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 7680,
+          "sampleDur": 2079,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "e"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 9760,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ɾ"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "sampleStart": 10400,
+          "sampleDur": 1119,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "sampleStart": 11520,
+          "sampleDur": 1599,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "sampleStart": 13120,
+          "sampleDur": 6465,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

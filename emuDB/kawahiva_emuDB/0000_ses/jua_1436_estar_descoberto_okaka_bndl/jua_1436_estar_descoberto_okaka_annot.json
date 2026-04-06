@@ -1,0 +1,130 @@
+{
+  "name": "jua_1436_estar_descoberto_okaka",
+  "annotates": "jua_1436_estar_descoberto_okaka.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 4319,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 4320,
+          "sampleDur": 19039,
+          "labels": [
+            {
+              "name": "words",
+              "value": "okakã"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 23360,
+          "sampleDur": 7007,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 4,
+          "sampleStart": 0,
+          "sampleDur": 4319,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 4320,
+          "sampleDur": 3199,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "o"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 7520,
+          "sampleDur": 2559,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 10080,
+          "sampleDur": 7839,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 17920,
+          "sampleDur": 1439,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 19360,
+          "sampleDur": 3999,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ã"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 23360,
+          "sampleDur": 7007,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

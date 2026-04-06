@@ -1,0 +1,273 @@
+{
+  "name": "jua_004_quatro_mokoi_katu_katu",
+  "annotates": "jua_004_quatro_mokoi_katu_katu.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 6879,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 6880,
+          "sampleDur": 4319,
+          "labels": [
+            {
+              "name": "words",
+              "value": "mõkõi"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 11200,
+          "sampleDur": 959,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "sampleStart": 12160,
+          "sampleDur": 4479,
+          "labels": [
+            {
+              "name": "words",
+              "value": "katu"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 16640,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 17120,
+          "sampleDur": 6719,
+          "labels": [
+            {
+              "name": "words",
+              "value": "katu"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 23840,
+          "sampleDur": 10897,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 8,
+          "sampleStart": 0,
+          "sampleDur": 6879,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 6880,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "õ"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 7360,
+          "sampleDur": 2559,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 9920,
+          "sampleDur": 799,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "õ"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "sampleStart": 10720,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "sampleStart": 11200,
+          "sampleDur": 959,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "sampleStart": 12160,
+          "sampleDur": 959,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "sampleStart": 13120,
+          "sampleDur": 799,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "sampleStart": 13920,
+          "sampleDur": 2079,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "t"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "sampleStart": 16000,
+          "sampleDur": 639,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "sampleStart": 16640,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "sampleStart": 17120,
+          "sampleDur": 1279,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "sampleStart": 18400,
+          "sampleDur": 3039,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "sampleStart": 21440,
+          "sampleDur": 959,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "t"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "sampleStart": 22400,
+          "sampleDur": 1439,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "sampleStart": 23840,
+          "sampleDur": 10897,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}

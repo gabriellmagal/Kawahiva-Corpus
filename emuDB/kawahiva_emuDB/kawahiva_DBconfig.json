@@ -1,0 +1,139 @@
+{
+  "name": "kawahiva",
+  "UUID": "748ede19-91a9-4906-b8e1-0b22a6d7dffe",
+  "mediafileExtension": "wav",
+  "ssffTrackDefinitions": [
+    {
+      "name": "FORMANTS",
+      "columnName": "fm",
+      "fileExtension": "fms"
+    },
+    {
+      "name": "PITCH",
+      "columnName": "F0",
+      "fileExtension": "f0"
+    },
+    {
+      "name": "RMS",
+      "columnName": "rms",
+      "fileExtension": "rms"
+    }
+  ],
+  "levelDefinitions": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "attributeDefinitions": [
+        {
+          "name": "words",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "attributeDefinitions": [
+        {
+          "name": "phones",
+          "type": "STRING"
+        }
+      ]
+    }
+  ],
+  "linkDefinitions": [],
+  "EMUwebAppConfig": {
+    "perspectives": [
+      {
+        "name": "default",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC",
+            "FORMANTS"
+          ],
+          "assign": [],
+          "contourLims": []
+        },
+        "levelCanvases": {
+          "order": [
+            "words",
+            "phones"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      },
+      {
+        "name": "Formantes",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC"
+          ],
+          "assign": [],
+          "contourLims": []
+        },
+        "levelCanvases": {
+          "order": [
+            "words",
+            "phones"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      },
+      {
+        "name": "Pitch",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "PITCH"
+          ],
+          "assign": [],
+          "contourLims": []
+        },
+        "levelCanvases": {
+          "order": [
+            "words",
+            "phones"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      },
+      {
+        "name": "Completo",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC",
+            "PITCH",
+            "RMS"
+          ],
+          "assign": [],
+          "contourLims": []
+        },
+        "levelCanvases": {
+          "order": [
+            "words",
+            "phones"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      }
+    ],
+    "activeButtons": {
+      "saveBundle": true,
+      "showHierarchy": true
+    },
+    "restrictions": {
+      "showPerspectivesSidebar": true
+    }
+  }
+}

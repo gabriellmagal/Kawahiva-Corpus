@@ -1,0 +1,132 @@
+{
+    "name": "embedded",
+    "UUID": "cd45b08a-3a13-4e42-b566-585844efabd5",
+    "mediafileExtension": "wav",
+    "ssffTrackDefinitions": [
+        {
+            "name": "FORMANTS",
+            "columnName": "fm",
+            "fileExtension": "fms"
+        },
+        {
+            "name": "PITCH",
+            "columnName": "F0",
+            "fileExtension": "f0"
+        },
+        {
+            "name": "RMS",
+            "columnName": "rms",
+            "fileExtension": "rms"
+        }
+    ],
+    "levelDefinitions": [],
+    "linkDefinitions": [],
+    "EMUwebAppConfig": {
+        "main": {
+            "comMode": "EMBEDDED",
+            "catchMouseForKeyBinding": true
+        },
+        "perspectives": [
+            {
+                "name": "Espectrograma",
+                "signalCanvases": {
+                    "order": ["OSCI", "SPEC"],
+                    "assign": [],
+                    "contourLims": []
+                },
+                "levelCanvases": { "order": [] },
+                "twoDimCanvases": { "order": [] }
+            },
+            {
+                "name": "Formantes",
+                "signalCanvases": {
+                    "order": ["OSCI", "SPEC"],
+                    "assign": [
+                        {
+                            "signalCanvasName": "SPEC",
+                            "ssffTrackName": "FORMANTS"
+                        }
+                    ],
+                    "contourLims": [
+                        {
+                            "ssffTrackName": "FORMANTS",
+                            "minContourIdx": 0,
+                            "maxContourIdx": 3
+                        }
+                    ]
+                },
+                "levelCanvases": { "order": [] },
+                "twoDimCanvases": { "order": [] }
+            },
+            {
+                "name": "Pitch",
+                "signalCanvases": {
+                    "order": ["OSCI", "PITCH"],
+                    "assign": [],
+                    "contourLims": [
+                        {
+                            "ssffTrackName": "PITCH",
+                            "minContourIdx": 0,
+                            "maxContourIdx": 0
+                        }
+                    ]
+                },
+                "levelCanvases": { "order": [] },
+                "twoDimCanvases": { "order": [] }
+            },
+            {
+                "name": "Completo",
+                "signalCanvases": {
+                    "order": ["OSCI", "SPEC", "PITCH", "RMS"],
+                    "assign": [
+                        {
+                            "signalCanvasName": "SPEC",
+                            "ssffTrackName": "FORMANTS"
+                        }
+                    ],
+                    "contourLims": [
+                        {
+                            "ssffTrackName": "FORMANTS",
+                            "minContourIdx": 0,
+                            "maxContourIdx": 3
+                        },
+                        {
+                            "ssffTrackName": "PITCH",
+                            "minContourIdx": 0,
+                            "maxContourIdx": 0
+                        }
+                    ]
+                },
+                "levelCanvases": { "order": [] },
+                "twoDimCanvases": { "order": [] }
+            }
+        ],
+        "restrictions": {
+            "showPerspectivesSidebar": true,
+            "editItemSize": true,
+            "editItemName": true,
+            "deleteItemBoundary": true,
+            "deleteItem": true,
+            "deleteLevel": false,
+            "addItem": true
+        },
+        "activeButtons": {
+            "addLevelSeg": false,
+            "addLevelEvent": false,
+            "renameSelLevel": false,
+            "downloadTextGrid": false,
+            "downloadAnnotation": false,
+            "specSettings": true,
+            "connect": false,
+            "search": true,
+            "clear": false,
+            "deleteSingleLevel": false,
+            "resizeSingleLevel": true,
+            "saveSingleLevel": false,
+            "resizePerspectives": true,
+            "openDemoDB": false,
+            "saveBundle": false,
+            "openMenu": false
+        }
+    }
+}

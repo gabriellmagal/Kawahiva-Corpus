@@ -1,0 +1,141 @@
+{
+  "name": "jua_386_doente_karuvara",
+  "annotates": "jua_386_doente_karuvara.wav",
+  "sampleRate": 16000,
+  "levels": [
+    {
+      "name": "words",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 1,
+          "sampleStart": 0,
+          "sampleDur": 10399,
+          "labels": [
+            {
+              "name": "words",
+              "value": "karuvara"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 10400,
+          "sampleDur": 2249,
+          "labels": [
+            {
+              "name": "words",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phones",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 3,
+          "sampleStart": 0,
+          "sampleDur": 2079,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "sampleStart": 2080,
+          "sampleDur": 1279,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 3360,
+          "sampleDur": 799,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ɾ"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 4160,
+          "sampleDur": 1439,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "u"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 5600,
+          "sampleDur": 799,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ʋ"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 6400,
+          "sampleDur": 1919,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 8320,
+          "sampleDur": 479,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "ɾ"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 8800,
+          "sampleDur": 1599,
+          "labels": [
+            {
+              "name": "phones",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 10400,
+          "sampleDur": 2249,
+          "labels": [
+            {
+              "name": "phones",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": []
+}
