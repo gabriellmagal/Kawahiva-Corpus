@@ -205,10 +205,12 @@ def tg(n: str):
 @app.websocket("/emu_ws/{bundle_name}")
 async def emu_ws(websocket: WebSocket, bundle_name: str):
     await websocket.accept()
-    nome     = urllib.parse.unquote(bundle_name)
-    base_url = str(websocket.url).replace("ws://", "http://").replace("wss://", "https://")
-    base_url = base_url.split("/emu_ws/")[0]
-    print(f"🔌 WS: {nome}")
+    nome = urllib.parse.unquote(bundle_name)
+    host = websocket.headers.get("host", "")
+    scheme = "https" if ("fly.dev" in host or "." in host) else "http"
+    base_url = f"{scheme}://{host}"
+    
+    print(f"🔌 WS: {nome} | base_url={base_url}")
 
     try:
         while True:
