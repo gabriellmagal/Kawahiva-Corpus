@@ -4,7 +4,7 @@ primary_region = "gru"
 [build]
 
 [processes]
-  app = "gunicorn --bind 0.0.0.0:8080 servidor:app"
+  app = "gunicorn --bind 0.0.0.0:8080 -k uvicorn.workers.UvicornWorker servidor:app"
 
 [http_service]
   internal_port = 8080
