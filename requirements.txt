@@ -5,3 +5,5 @@ openpyxl
 praatio
 python-multipart
 websockets
+flask
+gunicorn
